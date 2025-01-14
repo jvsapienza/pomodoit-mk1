@@ -237,7 +237,7 @@ export default function PomodoroComponent() {
           {/* Campo para nome do usuário */}
           <div className="w-full flex flex-col gap-2">
             <label className="text-sm font-semibold" htmlFor="userName">
-              Nome de Usuário:
+              Name your user:
             </label>
             <input
               id="userName"
@@ -245,7 +245,7 @@ export default function PomodoroComponent() {
               value={state.userName}
               onChange={handleUserNameChange}
               className="p-2 border border-gray-300 rounded"
-              placeholder="Digite seu nome"
+              placeholder="Let's fuc$&n do it!!"
             />
           </div>
 

@@ -1,6 +1,5 @@
-import PomodoroTimer from "@/components/pomodoro-timer";
 
-import { createClient } from '@supabase/auth-js'
+import { createClient } from '@/supabase/'
 import { cookies } from 'next/headers'
 
 export default async function Page() {
@@ -16,12 +15,4 @@ export default async function Page() {
       ))}
     </ul>
   )
-}
-
-export default function Home() {
-  return (
-    <div>
-      <PomodoroTimer />
-    </div>
-  );
 }
